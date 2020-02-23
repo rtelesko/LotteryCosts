@@ -1,7 +1,5 @@
 package com.example.lotterycosts;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
@@ -9,17 +7,17 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
+    // Total costs
+    double totalCosts;
     // GUI controls
     private Spinner spTips;
     private RadioGroup rgLottery;
     private RadioButton rbLottery;
     private TextView tvCosts;
-
-    // Total costs
-    double totalCosts;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         // Find the radiobutton by returned id
         rbLottery = findViewById(selectedType);
 
-        // Get the selected spinner item and convert it to int for claculation
+        // Get the selected spinner item and convert it to int for calculation
         int numberTips = Integer.parseInt(spTips.getSelectedItem().toString());
 
         // Calculation of costs
