@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
     private RadioGroup rgLottery;
     private RadioButton rbLottery;
     private TextView tvCosts;
-    private TextView tvCosts2;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
