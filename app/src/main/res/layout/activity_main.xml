@@ -20,8 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:entries="@array/lottery_tips" />
 
     <RadioGroup
@@ -29,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="160dp">
+        android:layout_marginTop="180dp">
 
         <RadioButton
             android:id="@+id/rbSwiss"
@@ -62,6 +61,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </LinearLayout>
